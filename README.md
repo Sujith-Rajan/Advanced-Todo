@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Advanced Todo App with Next.js
+
+Welcome to our Advanced Todo App, a powerful and intuitive task management application built with Next.js.
+![Screenshot 2024-01-24 133454](https://github.com/Sujith-Rajan/Advanced-Todo/assets/140044515/45a7b2a8-e25a-496a-bd2c-91f1a25ffba1)
+![todo](https://github.com/Sujith-Rajan/Advanced-Todo/assets/140044515/b284681e-160b-4698-bc6d-06f96fa40fb2)
+
+## Features
+
+- **Real-Time Updates:** Experience seamless task management with real-time updates using Next.js dynamic capabilities.
+- **Advanced UI/UX:** Intuitive and responsive user interface for an enhanced user experience.
+- **Task Organization:** Categorize tasks, set priorities, and manage due dates effortlessly.
+- **Authentication:** Secure your tasks with user authentication to protect sensitive information.
+
+## Technologies Used
+
+- **Next.js:** React framework for server-rendered React applications.
+- **React:** JavaScript library for building user interfaces.
+- **Tailwind CSS:** Utility-first CSS framework for modern styling.
+- **Firebase:** Backend services for authentication and real-time database.
+- **[Add any other relevant technologies used]**
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the Repository:**
+   ```bash
+   git clone [repository-url]
+   cd [project-directory]
