@@ -1,0 +1,76 @@
+.container {
+    width: 82%;
+    height: calc(100vh - 90px);
+    background-color: #343054;
+    border-radius: 15px;
+    position:absolute;
+    z-index: 999;
+    right: 0;
+   
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+   
+}
+.closeButton {
+    background-color: rgba(15, 14, 14, 0.81);
+    border-radius: 50%;
+    color: white;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 2px solid white;
+    position: fixed;
+    top: 0;
+
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+  
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+   
+}
+.card{
+    margin-left: 10px;
+   width:90%;
+   display: flex;
+   flex-shrink: 0;
+   border-radius: 10px;
+   box-shadow: 0px 4px 4px 0px rgba(239, 249, 242, 0.25);
+   background: linear-gradient(180deg, #000 0%, rgba(6, 14, 35, 0.81) 0.01%, rgba(20, 48, 121, 0.34) 94.91%, rgba(211, 211, 242, 0.00) 100%);
+   
+}
+.cardImage{
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   
+}
+.card p{
+    color: white;
+    line-height:.5;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.card p:first-child{
+    color: teal;
+    font-weight: bold;
+    font-size: 22px;
+}
+.card p:last-child:hover{
+    
+    text-decoration: underline;
+    
+}

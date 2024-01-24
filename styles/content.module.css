@@ -1,0 +1,130 @@
+.container{
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    padding: 20px;
+    background-color: #0c0032c6;
+    width: 98%;
+    height: calc(100vh - 90px);
+    border-radius: 10px;
+}
+.topRow{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.task{
+    background-color: #6a6973;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color:#310167;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+.icon{
+    font-size: 30px;
+}
+.task:hover{
+    color:  #ffffff;
+    background-color: black;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.event{
+    background-color:#030521;
+    width: 30%;
+    height: 30vh;
+    border-radius: 60px 20px 20px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.event p{
+    color: white;
+}
+.eventTitle{
+    color: white;
+}
+.icons{
+    font-size: 50px;
+    position: absolute;
+    left:-10px;
+    top:-10px;
+    background-color: rgba(255, 255, 255, 0.179);
+    border: 3px solid teal;
+    border-radius: 50%;
+}
+.icons:first-child{
+    color: orange;
+   
+}
+.event:nth-child(2) .icons {
+    color: green;
+   
+}
+.event:last-child .icons{
+    color: red;
+}    
+.event:first-child{
+    box-shadow: 4px 6px 26px -7px orange;
+}  
+.event:nth-child(2){
+    box-shadow: 4px 6px 26px -7px green;
+}
+.event:last-child{
+    box-shadow: 4px 6px 26px -7px red;
+}
+
+.event:first-child .eventCount{
+    color: orange;
+    font-size: 40px;
+}
+.event:nth-child(2) .eventCount{
+    color: green;
+    font-size: 40px;
+}
+.event:last-child .eventCount{
+    color: red;
+    font-size: 40px;
+}
+.Design{
+    font-size: 250px;
+    position: absolute;
+    top:-9px;
+    right: 2px;
+}
+.event:first-child .Design{
+    color: rgba(244, 179, 60, 0.24);
+    
+}
+.event:nth-child(2) .Design{
+    color: rgba(0, 128, 0, 0.24);
+}
+.event:last-child .Design{
+    color: rgba(255, 0, 0, 0.24);
+}
+.allCount{
+    color: white;
+    background-color: red;
+    width:auto;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    top:-18px;
+    right: 0px;
+}
+.spanCount{
+    padding:7px;
+}

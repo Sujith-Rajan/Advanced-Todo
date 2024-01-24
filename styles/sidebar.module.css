@@ -1,0 +1,66 @@
+.container{
+    flex: 1;
+    background-color: #0c0032c6;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: space-between;
+    align-items: center;
+}
+.addProject{
+    width: 80%;
+    border: 2px dashed orange;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #0c0032;
+    cursor: pointer;
+
+}
+.iconAddPrjct{
+    color: orange;
+    font-size: 28px;
+}
+.ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.list{
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    transition: all .3s ease-in-out;
+}
+.list:hover{
+    background-color:#ffffff14;
+    border-radius: 40px;
+   
+}
+.logoutIcon{
+    color: rgb(255, 3, 3);
+   
+   
+    
+    
+  }

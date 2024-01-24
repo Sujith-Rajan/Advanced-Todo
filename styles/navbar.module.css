@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Whisper&display=swap");
+.container {
+    width: 100%;
+    height: 50px;
+    background-color: #0c0032c6;
+    display: flex;
+    position: relative;
+    border-radius: 40px;
+    z-index: 9999;
+}
+.wrapper {
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+.log {
+    font-family: "Whisper", cursive;
+    font-size: 40px;
+    color: #fff;
+}
+
+.searchIcon {
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.search {
+    width: 45%;
+    position: fixed;
+    top: 10px;
+    left: 300px;
+    background-color: rgb(219, 219, 253);
+    border-radius: 20px;
+    padding: 5px;
+}
+.searchInput {
+    width: 95%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 40px;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.searchResult li{
+    width: 100%;
+    color: rgb(0, 0, 11);
+    font-weight: 700;
+    font-size: 20px;
+}
+.searchResult li:hover{
+    background-color: rgba(0, 0, 0, 0.162);
+}
+.time {
+    background-color: rgba(255, 255, 255, 0.447);
+    padding: 10px;
+    border-radius: 40px;
+    color: rgb(242, 249, 249);
+}
+.notification {
+    background-color: rgba(255, 255, 255, 0.447);
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: rgb(244, 241, 241);
+}
+.icon {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgba(45, 44, 44, 0.812);
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    padding: 5px;
+}
+.notificationIcon {
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+    display: flex;
+    column-gap: 20px;
+}
+.image {
+    border-radius: 50%;
+}
